@@ -36,7 +36,7 @@ app.set('view engine', 'ejs')
 
 // blog home page
 app.get('/', (req, res) => {
-    console.log( 'request made !!!!!!!!!')
+
   // render `home.ejs` with the list of posts
   res.render('home', { posts: posts })
 })
